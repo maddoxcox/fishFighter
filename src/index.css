@@ -1,0 +1,29 @@
+ :root {
+    --ocean-dark: #0a1628;
+    --ocean-mid: #1a2a4a;
+    --cyan-glow: #00f0ff;
+    --teal: #00c9a7;                                                                                    
+    --green-glow: #39ff14;
+    --red-pulse: #ff3b3b;                                                                               
+    --white: #e8f4f8;
+    --font-arcade: 'Press Start 2P', cursive;                                                           
+    --font-ui: 'Orbitron', sans-serif;
+  }    
+  
+  * {                                                                                                   
+    margin: 0;    
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: var(--ocean-dark);
+    color: var(--white);
+    font-family: var(--font-ui);
+  }
+  
+  #root {                                                                                               
+    max-width: 480px;
+    margin: 0 auto;
+    min-height: 100dvh;
+  } 
