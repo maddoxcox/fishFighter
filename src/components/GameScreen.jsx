@@ -24,7 +24,7 @@ import './GameScreen.css';
         </div>                                                                                           
                   
         <div className="fish-photo">
-          <img src={props.currentFish ? props.currentFish.photo : ''} alt="fish" />
+          <img src={props.currentFish ? `${import.meta.env.BASE_URL}${props.currentFish.photo}` : ''} alt="fish" />
         </div>                                                                                           
   
         <div className="choices">                                                                        
